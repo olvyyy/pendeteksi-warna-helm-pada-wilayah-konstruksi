@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+flask
+ultralytics
+=======
+flask
+ultralytics
+>>>>>>> 846d5eea2faa9b73eebefada67c59834ceedc0bb
+opencv-python
