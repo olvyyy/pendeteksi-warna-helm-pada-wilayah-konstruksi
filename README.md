@@ -32,3 +32,12 @@ Dibangun dengan bantuan YOLOv8 (You Only Look Once versi 8) untuk deteksi objek,
 
 ✅ Deskripsi tambahan:
 1. Setiap label helm dilengkapi dengan penjelasan fungsional berdasarkan warna helm
+
+
+✅ Dataset:
+Roboflow : Safety Helmet 
+
+Dipublikasikan oleh Kasetsart University
+
+Class : "helmet-blue" (Supervisor lapangan, operator teknis (seperti teknisi kelistrikan atau tenaga ahli bangunan), atau pengawas sementara.), "helmet-white" (Manajer, insinyur, atau supervisor), "helmet-yellow" ( Pekerja umum, subkontraktor, atau operator alat berat), dan "helmet-orange" (Tamu proyek atau orang yang ingin meninjau lokasi)
+
