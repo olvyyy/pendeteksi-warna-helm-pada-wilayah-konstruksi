@@ -1,19 +1,23 @@
 # Pendeteksi-Warna-Helm-pada-Wilayah-Kontruksi
-Sistem ini dirancang untuk mendeteksi jenis helm keselamatan berdasarkan warnanya (biru, putih, kuning, oranye) serta mengidentifikasi pekerja yang tidak mengenakan helm di area konstruksi. Proyek ini menggunakan YOLOv8 dan diimplementasikan melalui antarmuka berbasis Flask, yang memungkinkan pengguna mengunggah gambar atau video untuk dianalisis secara otomatis.
+🦺 Pendeteksi Warna Helm pada Wilayah Konstruksi
+Sistem ini dirancang untuk mendeteksi keberadaan dan jenis helm keselamatan berdasarkan warnanya di lingkungan proyek konstruksi. Teknologi ini bertujuan membantu memastikan standar keselamatan kerja dengan mengidentifikasi pekerja yang menggunakan helm sesuai perannya, maupun mereka yang tidak mengenakan helm.
+Dibangun dengan bantuan YOLOv8 (You Only Look Once versi 8) untuk deteksi objek, serta diintegrasikan ke dalam aplikasi web sederhana menggunakan Flask, sistem ini memungkinkan pengguna mengunggah gambar atau video untuk dianalisis, kemudian menampilkan hasil deteksi berupa anotasi visual langsung pada file tersebut.
 
-Fitur Utama
-1. Deteksi objek helm berdasarkan warna:
-   🔵 Helm Biru – Pekerja teknik,
-   ⚪ Helm Putih – Manajer proyek,
-   🟡 Helm Kuning – Pekerja umum,
-   🟠 Helm Oranye – Petugas keamanan,
-   ❌ Tanpa Helm – Indikasi pelanggaran keselamatan.
-3. Dukungan untuk input gambar dan vidio
-4. Visualisasi hasil dalam bentuk anotasi langsung pada gambar/vidio.
+🎯 Fitur Utama
+✅ Deteksi warna helm secara otomatis:
+🔵 Helm Biru – Pekerja teknik atau supervisor
+⚪ Helm Putih – Manajer proyek atau insinyur senior
+🟡 Helm Kuning – Pekerja umum atau buruh
+🟠 Helm Oranye – Keamanan atau pengatur lalu lintas
+❌ Tanpa Helm – Deteksi pelanggaran standar keselamatan
 
-Teknologi yang Digunakan
-1. Python 3
-2. YOLOv8 (Ultralytics)
-3. OpenCV
-4. Flask
-5. HTML/CSS
+✅ Input fleksibel:
+1. Bisa menggunakan gambar (.jpg, .png)
+2. Bisa menggunakan video (.mp4, .avi, .mov)
+
+✅ Visualisasi output:
+1. Hasil deteksi ditampilkan dalam bentuk bounding box berlabel di atas objek yang terdeteksi
+2. Output tersedia dalam bentuk gambar atau video hasil anotasi
+
+✅ Deskripsi tambahan:
+1. Setiap label helm dilengkapi dengan penjelasan fungsional berdasarkan warna helm
