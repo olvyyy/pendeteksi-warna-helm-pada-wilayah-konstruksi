@@ -62,10 +62,10 @@ Manual monitoring of helmet usage is often inefficient and prone to error. By ap
 ## 🖼️ Example
 
 ### Input Image:
-!(https://github.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-kontruksi/blob/main/static/outputs/helm-proyek.jpg)
+![Input](https://raw.githubusercontent.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-kontruksi/main/static/outputs/helm-proyek.jpg)
 
 ### Output Result:
-!(https://github.com/yourusername/your-repo-name/blob/main/static/results/coba.jpg)
+![Result](https://raw.githubusercontent.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-kontruksi/main/static/outputs/coba.jpg) 
 
 ---
 
@@ -76,3 +76,9 @@ Manual monitoring of helmet usage is often inefficient and prone to error. By ap
 - Flask  
 - OpenCV  
 - HTML/CSS (for web interface)
+
+---
+
+## 🤝 Contributors
+
+This repository is maintained by @olvyyy.
