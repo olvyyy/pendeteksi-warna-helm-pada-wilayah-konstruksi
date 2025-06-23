@@ -4,12 +4,13 @@ Sistem ini dirancang untuk mendeteksi keberadaan dan jenis helm keselamatan berd
 Dibangun dengan bantuan YOLOv8 (You Only Look Once versi 8) untuk deteksi objek, serta diintegrasikan ke dalam aplikasi web sederhana menggunakan Flask, sistem ini memungkinkan pengguna mengunggah gambar atau video untuk dianalisis, kemudian menampilkan hasil deteksi berupa anotasi visual langsung pada file tersebut.
 
 🎯 Fitur Utama
--✅ Deteksi warna helm secara otomatis:
--🔵 Helm Biru – Pekerja teknik atau supervisor
--⚪ Helm Putih – Manajer proyek atau insinyur senior
--🟡 Helm Kuning – Pekerja umum atau buruh
--🟠 Helm Oranye – Keamanan atau pengatur lalu lintas
--❌ Tanpa Helm – Deteksi pelanggaran standar keselamatan
+
+✅ Deteksi warna helm secara otomatis:
+🔵 Helm Biru – Pekerja teknik atau supervisor
+⚪ Helm Putih – Manajer proyek atau insinyur senior
+🟡 Helm Kuning – Pekerja umum atau buruh
+🟠 Helm Oranye – Keamanan atau pengatur lalu lintas
+❌ Tanpa Helm – Deteksi pelanggaran standar keselamatan
 
 ✅ Input fleksibel:
 1. Bisa menggunakan gambar (.jpg, .png)
