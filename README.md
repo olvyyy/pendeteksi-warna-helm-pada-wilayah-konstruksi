@@ -62,10 +62,10 @@ Manual monitoring of helmet usage is often inefficient and prone to error. By ap
 ## 🖼️ Example
 
 ### Input Image:
-![Input](https://raw.githubusercontent.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-konstruksi/main/static/outputs/helm-proyek.jpg)
+![Input](https://raw.githubusercontent.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-konstruksi/main/static/outputs/helm-proyek1.jpg)
 
 ### Output Result:
-![Result](https://raw.githubusercontent.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-konstruksi/main/static/results/coba.jpg)
+![Result](https://raw.githubusercontent.com/olvyyy/pendeteksi-warna-helm-pada-wilayah-konstruksi/main/static/outputs/result1.jpg)
 
 ---
 
